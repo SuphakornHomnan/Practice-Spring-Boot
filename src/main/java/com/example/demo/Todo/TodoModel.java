@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Todo;
 
 public class TodoModel {
     private long id;
@@ -25,6 +25,7 @@ public class TodoModel {
     }
 
     public TodoModel(long id, String name) {
+        super();
         this.id = id;
         this.name = name;
     }
